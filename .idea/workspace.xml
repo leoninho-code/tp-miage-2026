@@ -4,7 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b8a4ba80-10f8-47ed-b838-db8629202ed2" name="Changes" comment="">
+    <list default="true" id="694fe2ca-5659-4e20-89a6-42d293620ad4" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.adoc" beforeDir="false" afterPath="$PROJECT_DIR$/README.adoc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/todolist-debut-ex2/src/test/java/com/acme/todolist/adapters/rest_api/TodoListControllerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/todolist-debut-ex2/src/test/java/com/acme/todolist/adapters/rest_api/TodoListControllerTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -14,64 +19,46 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory">{
-  &quot;lastFilter&quot;: {
-    &quot;state&quot;: &quot;OPEN&quot;,
-    &quot;assignee&quot;: &quot;gautierbrnd&quot;
-  }
-}</component>
-  <component name="GithubPullRequestsUISettings">{
-  &quot;selectedUrlAndAccountId&quot;: {
-    &quot;url&quot;: &quot;https://github.com/leoninho-code/tp-miage-2026.git&quot;,
-    &quot;accountId&quot;: &quot;9bb91cc6-2aaa-4dca-a396-e4e3ca1046c0&quot;
-  }
-}</component>
-  <component name="ProjectColorInfo">{
-  &quot;associatedIndex&quot;: 8
-}</component>
-  <component name="ProjectId" id="3AqXRCmw3iu1EUKJREJPhghz7Gx" />
-  <component name="ProjectViewState">
-    <option name="hideEmptyMiddlePackages" value="true" />
-    <option name="showLibraryContents" value="true" />
-  </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
-    "Application.Application.executor": "Run",
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
-    "RunOnceActivity.git.unshallow": "true",
     "Spring Boot.Application.executor": "Run",
-    "git-widget-placeholder": "master",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/Users/leoninho/Documents/tp-miage-2026",
-    "project.structure.last.edited": "Project",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "preferences.lookFeel"
+    "git-widget-placeholder": "master"
   }
 }]]></component>
   <component name="RunManager">
+    <configuration name="TodoListControllerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="todolist-debut-ex2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.acme.todolist.adapters.rest_api.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.acme.todolist.adapters.rest_api" />
+      <option name="MAIN_CLASS_NAME" value="com.acme.todolist.adapters.rest_api.TodoListControllerTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="JetRunConfigurationType">
-      <module name="tp-miage-2026" />
+      <module name="todolist-debut-ex1" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
-      <module name="tp-miage-2026" />
+      <module name="todolist-debut-ex1" />
       <option name="filePath" />
       <method v="2" />
     </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.TodoListControllerTest" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="TaskManager">
-    <task active="true" id="Default" summary="Default task">
-      <changelist id="b8a4ba80-10f8-47ed-b838-db8629202ed2" name="Changes" comment="" />
-      <created>1773321064504</created>
-      <option name="number" value="Default" />
-      <option name="presentableId" value="Default" />
-      <updated>1773321064504</updated>
-    </task>
     <servers />
   </component>
 </project>
