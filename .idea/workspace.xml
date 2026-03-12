@@ -16,14 +16,29 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "JUnit.TodoListControllerTest.executor": "Run",
-    "Spring Boot.Application.executor": "Run",
-    "git-widget-placeholder": "master"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;JUnit.TodoListControllerTest.executor&quot;: &quot;Run&quot;,
+    &quot;Spring Boot.Application.executor&quot;: &quot;Run&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;
   }
-}]]></component>
-  <component name="RunManager">
+}</component>
+  <component name="RunManager" selected="JUnit.TodoListControllerTest">
+    <configuration name="TodoItemPersistenceAdapterTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="todolist-debut-ex2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.acme.todolist.adapters.persistence.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.acme.todolist.adapters.persistence" />
+      <option name="MAIN_CLASS_NAME" value="com.acme.todolist.adapters.persistence.TodoItemPersistenceAdapterTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="TodoListControllerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="todolist-debut-ex2" />
       <extension name="coverage">
@@ -53,6 +68,7 @@
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.TodoListControllerTest" />
+        <item itemvalue="JUnit.TodoItemPersistenceAdapterTest" />
       </list>
     </recent_temporary>
   </component>
