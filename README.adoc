@@ -149,6 +149,20 @@ Source : http://leanpub.com/get-your-hands-dirty-on-clean-architecture[Tom Hombe
   - la couche `domain` qui contient les entités (au sens DDD, pas au sens JPA). En général des classes complexes (méthodes riches, relations entre les entités)
 
 *Rappeler en quelques lignes les grands principes de l'architecture hexagonale.*
+Dans l'architecture hexagonale on va retrouver :
+
+- Le coeur (Le domaine) : C'est le cerveau de l'application. Il contient la logique métier pure.
+Il est totalement isolé et ne doit rien connaître de Spring, des bases de données ou du web.
+- Les ports (Les contrats) : Ce sont les interfaces qui servent de frontières à l'hexagone :
+- Points d'entrée : Ce que l'extérieur peut demander au domaine (ex: `AjouterUneTache`)
+- Ports de sortie : Ce dont le domaine a besoin pour fonctionner (ex: `SauvegarderUneTache`)
+- Les adaptateurs (La technique) : C'est le code qui fait le pont entre le monde extérieur et les ports :
+- Adaptateur d'entrée : Un contrôleur REST qui traduit une requête HTTP pour appeler le domaine.
+- Adaptateur de sortie : Une classe Repository qui traduit les besoins du domaine en requête SQL.
+
+Avec l'architecture hexagonale : c'est l'infrastructure qui dépend du domaine et jamais l'inverse.
+Ça améliore également la testabilité.
+
 
 Compléter ce code avec une fonctionnalité de création de `TodoItem`  persisté en base et appelé depuis un endpoint REST `POST /todos` qui :
 

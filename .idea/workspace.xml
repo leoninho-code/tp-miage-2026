@@ -5,9 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b8a4ba80-10f8-47ed-b838-db8629202ed2" name="Changes" comment="">
+<<<<<<< Updated upstream
       <change beforePath="$PROJECT_DIR$/todolist-debut-ex2/src/main/java/com/acme/todolist/adapters/persistence/TodoItemPersistenceAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/todolist-debut-ex2/src/main/java/com/acme/todolist/adapters/persistence/TodoItemPersistenceAdapter.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/todolist-debut-ex2/src/main/java/com/acme/todolist/adapters/rest_api/TodoListController.java" beforeDir="false" afterPath="$PROJECT_DIR$/todolist-debut-ex2/src/main/java/com/acme/todolist/adapters/rest_api/TodoListController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/todolist-debut-ex2/src/main/java/com/acme/todolist/application/service/AddTodoItemService.java" beforeDir="false" afterPath="$PROJECT_DIR$/todolist-debut-ex2/src/main/java/com/acme/todolist/application/service/AddTodoItemService.java" afterDir="false" />
+=======
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.adoc" beforeDir="false" afterPath="$PROJECT_DIR$/README.adoc" afterDir="false" />
+>>>>>>> Stashed changes
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
