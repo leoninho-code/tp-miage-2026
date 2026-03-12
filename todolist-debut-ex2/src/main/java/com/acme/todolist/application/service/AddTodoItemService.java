@@ -20,7 +20,11 @@ public class AddTodoItemService implements AddTodoItem {
 
 	@Override
 	public void addTodoItem(TodoItem item) {
-		this.updateTodoItem.storeNewTodoItem(item);
+		String id = item.getId() != null ? item.getId() : java.util.UUID.randomUUID().toString();
+		java.time.Instant time = item.getTime() != null ? item.getTime() : java.time.Instant.now();
+		
+		TodoItem itemToSave = new TodoItem(id, time, item.getContent());
+		this.updateTodoItem.storeNewTodoItem(itemToSave);
 	}
 
 }
