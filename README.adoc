@@ -181,7 +181,10 @@ _Temps estimé : 20 mins_
 *Quels famille de tests devra-t-on écrire pour les adaptateurs ?*
 Dans une architecture hexagonale, on teste les adaptateurs séparément du coeur métier :
 
-- Adaptateurs d'entrée :
+- Adaptateurs d'entrée : (ex: `TodoListController`). On utilise des tests d'intégration web (`@WebMvcTest`) pour vérifier le routing HTTP
+et la sérialisation JSON sans démarrer toute l'application
+- Adaptateurs de sortie : (ex : `TodoItemPersistenceAdapter`) On utilise des tests d'intégration de persistance (`@DataJpaTest`) pour valider les requêtes SQL
+et le mapping JPA avec une base de donnée de test
 
 *S'il vous reste du temps, écrire quelques-uns de ces tests.*
 
